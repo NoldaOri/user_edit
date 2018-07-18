@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <link rel="stylesheet" type="text/css" href="small_pop.css">
+</head>
+<body>
+    <a href="#modal" class="modal-open">기본정보 변경</a>
+
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <a href="#" class="modal__close">&times;</a>
+            <h2 class="modal__heading">회원정보 수정</h2> <hr />
+            <p class="modal__paragraph">
+                <div class="head">
+                    <h3>기본정보 수정</h3></b3><br />
+                    <img src="images/user/user_img.png" alt="Avatar" class="avatar"> <br />
+                    사진 바꾸기
+                </div>
+
+                <div class="body-content">
+                    <h4>닉네임</h4>
+                    <div>
+                        <input typeof="text" placeholder="기존 닉네임 표시" name="userID" maxlength="12" height="25" /><br />
+                        <img src="images/user/confirm.png" height="25">
+                    </div>
+                </div>
+
+                <br />
+
+                <div class="body-content">
+                    <h4>소개</h4>
+                    <div>
+                        <textarea rows="5" cols="50" name="contents"></textarea><br />
+                        <img src="images/user/confirm.png" height="25">
+                    </div>
+                </div>
+                <br />
+                <img src="images/user/save.png" height="25">
+
+
+
+        </div>
+
+        </p>
+    </div>
+    </div>
+</body>
+</html>
